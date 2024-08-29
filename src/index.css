@@ -227,4 +227,147 @@ body {
     color: #990000;
   }
   
+/* BodyContent.js */
+.body-content {
+    align-items:center ;
+  }
+  
+  .body-content-inner {
+    display: flex;
+    padding: 15px;
+    gap: 50px;
+  }
+  
+  .main-column {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .series-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .image-container, .image-container1, .image-container2 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5%;
+    height: 250px;
+  
+  }
+  .image-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .image-container1 {
+    width: 500px;
+  }
+  .image-container2 {
+    width: 350px;
+  }
+  
+  .series-name {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .top-left-label,
+  .top-left-label-rate {
+    position: absolute;
+    font-weight: 800;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+  
+  .top-left-label {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .top-left-label-rate {
+    color: #fff;
+  }
+  .series-info-container1, .series-info-container2 {
+    color: #fff;
+  }
+  .series-info-container1 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .series-info-container2 {
+    position: relative;
+    padding: 10px;
+    background: #222;
+    text-align: left;
+    margin: 5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+  }
+  .series-info-container2 i {
+    color: #FABC3F;
+    margin-left: 40%;
+  }
+  .series-name-container2 {
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .continue-watching {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .title  {
+    margin-right: 20px;
+    font-size: 18px;
+    color: #fff;
+  }
+  .title .bold {
+    font-weight: bold;
+  }
+  
+  .see-more-button {
+    border: 2px solid #000;
+    color: #FABC3F;
+    font-weight: 800;
+    background-color: #222;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .images-container {
+    display: flex;
+   /*  flex-wrap: wrap; */
+    gap: 20px;
+    align-items: flex-start;
+    
+  }
+  
+  .tall-image {
+    height: 300px; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .series-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
   
