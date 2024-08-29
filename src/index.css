@@ -27,3 +27,81 @@ body {
   grid-template-rows: auto;
   height: auto;
 }
+
+
+
+.right-sidebar-inner, .left-sidebar-inner {
+    height: 100%;
+    background-color: #222;
+    margin-top: 15px;
+    padding: 10px 20px;
+  }
+  
+  .right-sidebar-inner {
+    border-left: 5px solid #333;
+  }
+  .left-sidebar-inner {
+    border-right: 5px solid #333;
+  }
+  
+  .main-content {
+    background-color: #222;
+    padding: 10px;
+  }
+  
+  
+  /* NavBar.js Styles */
+  .nav-bar {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    color: white;
+    height: 50px;
+  }
+  .nav-left , .nav-right {
+    flex: 1;
+  }
+  .nav-left {
+    text-align: left;
+    font-size: 1.5em;
+  
+  }
+  
+  .nav-right {
+    text-align: right;
+  }
+  
+  .search-container {
+    position: relative;
+    display: inline-block; 
+    margin-right: 5px;
+  }
+  
+  .search-container i {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999; 
+    pointer-events: none;
+  }
+  
+  .search-bar {
+    width: 100%;
+    height: 30px;
+    padding: 5px 5px 5px 50px; 
+    border-radius: 20px;
+    border: none;
+    margin-right: 30px;
+  }
+  
+  .nav-right i.fa-sliders {
+    background-color: #FABC3F;
+    padding: 5px; 
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  
