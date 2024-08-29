@@ -1,0 +1,29 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #fff;
+  box-sizing: border-box; /**/
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #222;
+  padding: 15px;
+}
+/* App.js Style */
+.Movie {
+  text-align: center;
+}
+
+.Home-page
+ {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1.2fr;
+  grid-template-rows: auto;
+  height: auto;
+}
