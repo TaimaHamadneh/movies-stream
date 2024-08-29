@@ -5,7 +5,7 @@
   margin: 0;
   font-family: "Quicksand";
   color: #fff;
-  box-sizing: border-box; /**/
+  box-sizing: border-box; 
 }
 
 body {
@@ -15,6 +15,7 @@ body {
   background-color: #222;
   padding: 15px;
 }
+
 /* App.js Style */
 .Movie {
   text-align: center;
@@ -50,7 +51,7 @@ body {
   }
   
   
-  /* NavBar.js Styles */
+  /* NavBar.js Style */
   .nav-bar {
     padding: 15px;
     display: flex;
@@ -105,7 +106,7 @@ body {
   }
   
   
-/* Right Sidebar Content */
+/* RightSidebar.js */
 .media-service {
     margin-bottom: 60px;
   }
@@ -147,8 +148,6 @@ body {
   }
   
 /* LeftSidebar.js */
-
-
 .profile-pic {
     text-align: center;
     margin-bottom: 50px;
@@ -352,7 +351,6 @@ body {
   
   .images-container {
     display: flex;
-   /*  flex-wrap: wrap; */
     gap: 20px;
     align-items: flex-start;
     
