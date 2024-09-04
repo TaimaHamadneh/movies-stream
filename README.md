@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Movie Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Movie website built using React.js. The website allows users to browse and interact with a collection of movies and series, providing a sleek and modern user interface.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Features](#features)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Home Page**: Displays a grid layout with a main content area, left sidebar for profile information, and right sidebar for media services and genres.
+- **Search Functionality**: Users can search for movies and series using the search bar in the navigation bar.
+- **Hover Effects**: Interactive hover effects on images and buttons for a more engaging user experience.
+- **Right Sidebar**: Includes quick access to different media services and genres, as well as user profile and settings.
+- **Left Sidebar**: Includes quick access to different user profile and settings.
+- **Continue Watching Section**: Displays a list of series that the user has started watching, allowing easy access to continue.
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Browse the homepage and view movies and series.
+- Use the search bar to find specific movies.
+- Explore different genres and media services from the right sidebar.
+- View and update profile information from the left sidebar.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+movie-stream/
+│
+├── public/
+│   ├── index.html          # Main HTML file
+│   └── ...                 # Other public assets
+│
+├── src/
+│   ├── assets/              #Images of movies 
+│   │   ├── Tall_Girl.png
+|        
+│   ├── App.js              # Root component
+│   ├── index.js            # Entry point of the application
+│   |__ index.css           # Global and component-specific styles
+|   |__ NavBar.js           # Navigation bar component
+|   |__ BodyContent.js      # Main content component
+|   |__ RightSidebar.js     # Right sidebar component
+│   |__ LeftSidebar.js      # Left sidebar component
+│
+├── package.json            # Project dependencies and scripts
+└── README.md               # Project documentation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React.js**: JavaScript library for building user interfaces.
+- **CSS**: Custom styles for layout and design.
+- **FontAwesome**: Icons used in the UI.
+- **Google Fonts**: `Quicksand` font for a modern and clean look.
