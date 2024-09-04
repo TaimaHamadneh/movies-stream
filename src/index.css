@@ -135,10 +135,12 @@ body {
     transition: background-color 0.3s ease;
   }
 
+
   .MediaService-button:hover, .genre-button:hover {
     background-color: #FABC3F;
     width: 50%;
   }
+
   
   .MediaService-button img {
     width: 30px;
@@ -146,7 +148,6 @@ body {
     margin-right: 10px;
   }
 
-  
 /* LeftSidebar.js */
 .profile-pic {
     text-align: center;
@@ -198,8 +199,7 @@ body {
     margin: 5px 0;
     border-radius: 50%;
   }
-  
-  
+
   .plus-icon .fa-plus {
     color: #fff ;
     background-color: #FABC3F;
@@ -265,12 +265,12 @@ body {
     width: 350px;
   }
 
+
   .image-container:hover, .image-container1:hover, .image-container2:hover {
     transform: scale(1.09);
     z-index: 2; 
     transition: transform 0.3s ease-in-out;
 }
-
 
   
   .series-name {
@@ -358,6 +358,7 @@ body {
     background-color: #FABC3F; 
     color: black; 
 }
+
   
   .images-container {
     display: flex;

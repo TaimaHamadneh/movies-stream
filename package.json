@@ -10,6 +10,10 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
+<<<<<<< HEAD
+=======
+    "react-router-dom": "^5.3.4",
+>>>>>>> 4f84bf62eb1838881ece9b7cc689b42ec9d1d957
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
