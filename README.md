@@ -28,7 +28,7 @@ This project is a Movie website built using React.js. The website allows users t
 
 
 ## Project Structure
-
+```
 movie-stream/
 │
 ├── public/
