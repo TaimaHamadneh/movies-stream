@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/movies-stream/static/css/main.7d47b6ca.css",
+    "main.js": "/movies-stream/static/js/main.24e508b5.js",
+    "static/media/shrek.png": "/movies-stream/static/media/shrek.a0ef99a9de3655dfe6b0.png",
+    "static/media/fa-solid-900.ttf": "/movies-stream/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/riverdale.png": "/movies-stream/static/media/riverdale.705ad0e66d2bbb44c926.png",
+    "static/media/squid game.png": "/movies-stream/static/media/squid game.c29b60441daed0b23efa.png",
+    "static/media/fa-brands-400.ttf": "/movies-stream/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/dune.png": "/movies-stream/static/media/dune.327b2ff781b3db228f45.png",
+    "static/media/fa-solid-900.woff2": "/movies-stream/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/movies-stream/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/movies-stream/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/desney tv.jpeg": "/movies-stream/static/media/desney tv.36d79187af704956b662.jpeg",
+    "static/media/image2.jpeg": "/movies-stream/static/media/image2.ea9abf7cb9909bbd7629.jpeg",
+    "static/media/netflix.jpeg": "/movies-stream/static/media/netflix.f26de480e2ecbecbc2a1.jpeg",
+    "static/media/fa-regular-400.woff2": "/movies-stream/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/prime.jpeg": "/movies-stream/static/media/prime.1ed5784b261f4ba05f97.jpeg",
+    "static/media/hulu.png": "/movies-stream/static/media/hulu.fe295f1655cf81ecee0f.png",
+    "static/media/image1.jpeg": "/movies-stream/static/media/image1.076517d6df3e1a5603ac.jpeg",
+    "static/media/image3.jpeg": "/movies-stream/static/media/image3.4e7fe772523a236d1f0f.jpeg",
+    "static/media/Tall_Girl.png": "/movies-stream/static/media/Tall_Girl.ccd53f88bc46477215b1.png",
+    "static/media/image.png": "/movies-stream/static/media/image.c5ac3191c0da6ab59c29.png",
+    "static/media/fa-v4compatibility.ttf": "/movies-stream/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/movies-stream/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/movies-stream/index.html",
+    "main.7d47b6ca.css.map": "/movies-stream/static/css/main.7d47b6ca.css.map",
+    "main.24e508b5.js.map": "/movies-stream/static/js/main.24e508b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d47b6ca.css",
+    "static/js/main.24e508b5.js"
+  ]
+}
