@@ -2,6 +2,8 @@
 
 This project is a Movie website built using React.js. The website allows users to browse and interact with a collection of movies and series, providing a sleek and modern user interface.
 
+![Screenshot 2024-08-29 213710](https://github.com/user-attachments/assets/bcbe6592-95fd-4354-88d1-9e7ceed1717e)
+
 
 ## Table of Contents
 
